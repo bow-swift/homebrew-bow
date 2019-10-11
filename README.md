@@ -1,4 +1,4 @@
-### Homebrew nef
+### Homebrew Bow
 **bow** formulae for the Homebrew's package manager.
 
 ### How do I install this formulae?
