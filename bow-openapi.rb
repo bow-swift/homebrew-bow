@@ -2,7 +2,7 @@ class BowOpenapi < Formula
   desc "Functional HTTP client generate from an OpenAPI/Swagger specification"
   homepage "https://github.com/bow-swift/bow-openapi"
   url "https://github.com/bow-swift/bow-openapi/archive/0.1.0.tar.gz"
-  sha256 "ef40ab62cfabc87dd04e670cc693869b8dd4c99fd0c7f86d5c8f174e4690e28a"
+  sha256 "4377b009fdc7fcfd1347238aeb7c471272b8f469a469678135fa0d23c5ab2ea8"
 
   depends_on macos: :mojave
   depends_on :xcode => "11.0"
