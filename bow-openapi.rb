@@ -27,8 +27,8 @@ class BowOpenapi < Formula
 
   def build_project
     system "swift", "build", "--disable-sandbox", "--build-path", "release"
-    mv "./release/x86_64-apple-macosx/debug/bow-openapi", "./bin"
-    FileUtils.cp_r("./Templates/*", "./lib/bow/openapi/templates")
+    FileUtils.cp "./release/x86_64-apple-macosx/debug/bow-openapi", "./bin"
+    FileUtils.cp_r './Templates/.', "./lib/bow/openapi/templates"
   end
 
 end
